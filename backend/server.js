@@ -6,7 +6,7 @@ const app = express();
 
 //Routes
 app.get("/", (req, res) => {
-  res.send("Home page");
+  res.send("Home Page Ready");
 });
 connectDB();
 
